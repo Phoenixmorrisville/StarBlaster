@@ -358,6 +358,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   moveSpeed: 10
+  leftBoundPadding: 1
+  rightBoundPadding: 1
+  upBoundPadding: 7
+  downBoundPadding: 1
 --- !u!1001 &8982924794037200989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -372,11 +376,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5263286989201672925, guid: f5093fe01f087a94ebb573050e8b5c12, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.69253
+      value: 0.84
       objectReference: {fileID: 0}
     - target: {fileID: 5263286989201672925, guid: f5093fe01f087a94ebb573050e8b5c12, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.24744
+      value: 6.44
       objectReference: {fileID: 0}
     - target: {fileID: 5263286989201672925, guid: f5093fe01f087a94ebb573050e8b5c12, type: 3}
       propertyPath: m_LocalPosition.z
@@ -423,6 +427,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 465427850356763195, guid: 61bae7148e3869f4e845264281755b84, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 465427850356763195, guid: 61bae7148e3869f4e845264281755b84, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5200347190172560994, guid: 61bae7148e3869f4e845264281755b84, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.69253
