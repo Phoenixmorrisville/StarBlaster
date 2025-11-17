@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: -2465905322686486547}
   - component: {fileID: 2516234211656076086}
   - component: {fileID: 9188735739401589836}
-  m_Layer: 0
+  - component: {fileID: 8446561268900868118}
+  m_Layer: 7
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138,6 +139,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DamageDealer
   damage: 25
+--- !u!114 &8446561268900868118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456923204596894602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 683de8713b67d414891bf3972954120c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Shooter
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 10
+  projectileLifetime: 5
+  fireRate: 0.2
+  useAI: 1
+  isFiring: 0
 --- !u!1 &4187924910243379862
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,7 +167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8293831089638898738}
   - component: {fileID: 4336930474397095440}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: spaceship_red_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
