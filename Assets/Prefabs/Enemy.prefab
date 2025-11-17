@@ -146,12 +146,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456923204596894602}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 683de8713b67d414891bf3972954120c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shooter
-  projectilePrefab: {fileID: 0}
+  projectilePrefab: {fileID: 6271072192200750786, guid: fea0e5d614f501b4b93b7defb654d9cd, type: 3}
   projectileSpeed: 10
   projectileLifetime: 5
   fireRate: 0.2
